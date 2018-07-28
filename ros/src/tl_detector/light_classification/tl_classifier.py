@@ -13,7 +13,7 @@ class TLClassifier(object):
     def __init__(self, abIsSimulator):
         #TODO load classifier
         #TODO load classifier
-        #MODEL_NAME = "SIM_TL_INFERENCE"
+        MODEL_NAME = "SIM_TL_INFERENCE"
         MODEL_NAMES = "SITE_TL_INFERENCE"
         PATH_TO_CKPT = MODEL_NAMES + '/frozen_inference_graph.pb'
         if abIsSimulator :
